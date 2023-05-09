@@ -1,6 +1,6 @@
 {
     "name" : "uni-admin",
-    "appid" : "__UNI__FFA0ED4",
+    "appid" : "__UNI__ED8B24C",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -73,10 +73,12 @@
         "router" : {
             "mode" : "hash",
             "base" : "/admin/"
-        }
+        },
+        "title" : "nanyan-admin"
     },
     "vueVersion" : "3",
     "networkTimeout" : {
         "uploadFile" : 1200000 //ms， 如果不配置，上传大文件可能会超时
-    }
+    },
+    "locale" : "zh-Hans"
 }

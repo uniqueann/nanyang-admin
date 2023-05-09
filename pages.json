@@ -136,7 +136,47 @@
 				"navigationBarTitleText": "设置密码"
 			}
 		}
-	],
+	,{
+    "path": "uni_modules/uni-cms/pages/article/list/list",
+    "style": {
+        "navigationBarTitleText": "文章列表"
+    }
+}
+,{
+    "path": "uni_modules/uni-cms/pages/article/add/add",
+    "style": {
+        "leftWindow": false,
+        "navigationBarTitleText": "新增文章",
+        "topWindow": true
+    }
+}
+,{
+    "path": "uni_modules/uni-cms/pages/article/edit/edit",
+    "style": {
+        "leftWindow": false,
+        "navigationBarTitleText": "编辑文章",
+        "topWindow": true
+    }
+}
+,{
+    "path": "uni_modules/uni-cms/pages/categories/list/list",
+    "style": {
+        "navigationBarTitleText": "分类列表"
+    }
+}
+,{
+    "path": "uni_modules/uni-cms/pages/categories/add/add",
+    "style": {
+        "navigationBarTitleText": "新增分类"
+    }
+}
+,{
+    "path": "uni_modules/uni-cms/pages/categories/edit/edit",
+    "style": {
+        "navigationBarTitleText": "编辑分类"
+    }
+}
+],
 	"subPackages": [{
 			"root": "pages/system",
 			"pages": [{
