@@ -176,7 +176,16 @@
         "navigationBarTitleText": "编辑分类"
     }
 }
-],
+    ,{
+            "path" : "pages/edm/recipient/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"subPackages": [{
 			"root": "pages/system",
 			"pages": [{
