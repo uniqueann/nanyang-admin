@@ -18,6 +18,15 @@
 			}
 		},
 		{
+			"path": "pages/privacy-policy/index",
+			"style": {
+				"topWindow": false,
+				"leftWindow": false,
+				"navigationBarTitleText": "隐私策略"
+			},
+			"requireAuth": false
+		},
+		{
 			"path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
 			"style": {
 				"navigationBarTitleText": "修改密码"
@@ -135,58 +144,65 @@
 				"enablePullDownRefresh": false,
 				"navigationBarTitleText": "设置密码"
 			}
+		}, {
+			"path": "uni_modules/uni-cms/pages/article/list/list",
+			"style": {
+				"navigationBarTitleText": "文章列表"
+			}
+		}, {
+			"path": "uni_modules/uni-cms/pages/article/add/add",
+			"style": {
+				"leftWindow": false,
+				"navigationBarTitleText": "新增文章",
+				"topWindow": true
+			}
+		}, {
+			"path": "uni_modules/uni-cms/pages/article/edit/edit",
+			"style": {
+				"leftWindow": false,
+				"navigationBarTitleText": "编辑文章",
+				"topWindow": true
+			}
+		}, {
+			"path": "uni_modules/uni-cms/pages/categories/list/list",
+			"style": {
+				"navigationBarTitleText": "分类列表"
+			}
+		}, {
+			"path": "uni_modules/uni-cms/pages/categories/add/add",
+			"style": {
+				"navigationBarTitleText": "新增分类"
+			}
+		}, {
+			"path": "uni_modules/uni-cms/pages/categories/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑分类"
+			}
 		}
-	,{
-    "path": "uni_modules/uni-cms/pages/article/list/list",
-    "style": {
-        "navigationBarTitleText": "文章列表"
-    }
-}
-,{
-    "path": "uni_modules/uni-cms/pages/article/add/add",
-    "style": {
-        "leftWindow": false,
-        "navigationBarTitleText": "新增文章",
-        "topWindow": true
-    }
-}
-,{
-    "path": "uni_modules/uni-cms/pages/article/edit/edit",
-    "style": {
-        "leftWindow": false,
-        "navigationBarTitleText": "编辑文章",
-        "topWindow": true
-    }
-}
-,{
-    "path": "uni_modules/uni-cms/pages/categories/list/list",
-    "style": {
-        "navigationBarTitleText": "分类列表"
-    }
-}
-,{
-    "path": "uni_modules/uni-cms/pages/categories/add/add",
-    "style": {
-        "navigationBarTitleText": "新增分类"
-    }
-}
-,{
-    "path": "uni_modules/uni-cms/pages/categories/edit/edit",
-    "style": {
-        "navigationBarTitleText": "编辑分类"
-    }
-}
-    ,{
-            "path" : "pages/edm/recipient/list",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+	],
 	"subPackages": [{
+			"root": "pages/edm",
+			"pages": [{
+					"path": "recipient/list",
+					"style": {
+						"navigationBarTitleText": "收件人管理"
+					}
+				},
+				{
+					"path": "recipient/add",
+					"style": {
+						"navigationBarTitleText": "新增收件人"
+					}
+				},
+				{
+					"path": "recipient/edit",
+					"style": {
+						"navigationBarTitleText": "修改收件人"
+					}
+				}
+			]
+		},
+		{
 			"root": "pages/system",
 			"pages": [{
 					"path": "menu/list",
